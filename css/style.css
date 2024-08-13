@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+  column-gap: 30px;
+}
+
+.form {
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+header {
+  font-size: 28px;
+  font-weight: 600;
+  color: #232836;
+  text-align: center;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.form .field {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.field input,
+.field button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+
+.field input {
+  outline: none;
+  padding: 0 15px;
+  border: 1px solid #cacaca;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 23%;
+  right: 10px;
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.field button {
+  color: #fff;
+  background: #0171d3;
+  cursor: pointer;
+}
+.form-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-link span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #232836;
+}
+.form a {
+  color: #0171d3;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  background: #d4d4d4;
+}
+.media-option a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.facebook {
+  color: #fff;
+  background: #4267b2;
+}
+
+a.facebook .facebook-icon {
+  height: 28px;
+  width: 28px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0171d3;
+  font-size: 20px;
+}
+
+.facebook-icon {
+  position: absolute;
+  top: 25%;
+  left: 15px;
+}
+
+a.google span {
+  font-weight: 500;
+  opacity: 0.6;
+  color: #232836;
+}
+
+.goole-icon {
+  display: inline-block;
+  position: absolute;
+  left: -53px;
+  width: 9.98em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 262'%3E%3Cpath fill='%234285f4' d='M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027'/%3E%3Cpath fill='%2334a853' d='M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1'/%3E%3Cpath fill='%23fbbc05' d='M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z'/%3E%3Cpath fill='%23eb4335' d='M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251'/%3E%3C/svg%3E");
+}
